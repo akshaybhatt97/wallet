@@ -1,0 +1,40 @@
+{
+  "name": "Wallet",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dayjs": "^1.10.7",
+    "dotenv": "^15.0.0",
+    "dotenv-expand": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ionicons": "^4.2.0",
+    "react-loader-spinner": "^5.1.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.3",
+    "sweetalert2": "^11.4.0"
+  },"scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+},
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
