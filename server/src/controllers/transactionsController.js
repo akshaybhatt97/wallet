@@ -16,7 +16,7 @@ export async function getTransactions(req, res) {
       if (transaction.type === "entry") balance += parseTransaction;
       else balance -= parseTransaction;
     });
-    balance = balance.toFixed(2).replace(".", ",");
+    balance = balance.toFixed(2);
 
     res.status(200).send({ userTransactions, balance });
   } catch (error) {
