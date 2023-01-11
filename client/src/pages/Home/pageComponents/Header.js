@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <HeaderElement>
-      <h2>Bazinnnggaaaa!, {user?.username}</h2>
+      <h2>Welcome, {user?.username}</h2>
       <ExitOutline color={"#FFF"} height="32px" width="32px" onClick={logout} style={{ cursor: "pointer" }} />
     </HeaderElement>
   );
