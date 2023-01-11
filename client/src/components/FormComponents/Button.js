@@ -10,18 +10,18 @@ const Button = styled.button`
 
   border: none;
   border-radius: 5px;
-  
+
   cursor: pointer;
-  pointer-events: ${(props) => props.disabled ? "none" : "all"};
-  opacity: ${(props) => props.disabled ? 0.7 : 1};
-  
+  pointer-events: ${(props) => (props.disabled ? "none" : "all")};
+  opacity: ${(props) => (props.disabled ? 0.7 : 1)};
+
   font-size: 20px;
   font-weight: bold;
   line-height: 23px;
   text-align: center;
-  
-  background: #A328D6;
-  color: #FFFFFF;
+
+  background: #1068bb;
+  color: #ffffff;
 `;
 
 export default Button;
