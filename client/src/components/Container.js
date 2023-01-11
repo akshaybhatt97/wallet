@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  background: #945CBE;
+  background: #50b8da;
   width: 375px;
   height: 100vh;
   margin: auto;
@@ -10,7 +10,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  ${ ({center}) => center && "justify-content: center"};
+  ${({ center }) => center && "justify-content: center"};
 `;
 
 export default Container;
